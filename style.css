@@ -37,7 +37,8 @@ p {
   margin-top: 5rem;
 }
 
-#generate-btn {
+#generate-btn,
+#rules-btn {
   margin-top: 20px;
   padding: 10px 20px;
   background-color: rgba(125, 42, 157, 0.6);
@@ -50,14 +51,16 @@ p {
   font-size: clamp(0.5rem, 7vw, 1.2rem) !important;
 }
 
-#generate-btn:hover {
-  background-color: #b0b300;
+#generate-btn:hover,
+#rules-btn:hover {
+  background-color: #0f7b16;
 }
 
 #music,
 #tv,
 #book,
-#movie {
+#movie,
+#rules-div {
   background-color: lightblue;
   padding: 10px;
   border-radius: 5px;
@@ -72,6 +75,11 @@ p {
   padding: 10px;
   border-radius: 5px;
   margin: 1rem 0;
+}
+
+a {
+  color: rgba(125, 42, 157, 0.6);
+  font-size: 2rem;
 }
 
 @media screen and (max-width: 767px) {
