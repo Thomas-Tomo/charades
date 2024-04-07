@@ -1,5 +1,7 @@
 document.addEventListener("DOMContentLoaded", function () {
   const generateButton = document.getElementById("generate-btn");
+  const rulesButton = document.getElementById("rules-btn");
+  const rulesDiv = document.getElementById("rules-div");
   const movieContent = document.getElementById("movie");
   const musicContent = document.getElementById("music");
   const tvContent = document.getElementById("tv");
@@ -38,5 +40,15 @@ document.addEventListener("DOMContentLoaded", function () {
         bookContent.textContent = `${randomBook}`;
       })
       .catch((error) => console.error("Error fetching data:", error));
+  });
+
+  rulesButton.addEventListener("click", function () {
+    if (rulesDiv.style.display === "none") {
+      rulesDiv.style.display = "block";
+      rulesButton.textContent = "Hide Rules";
+    } else {
+      rulesDiv.style.display = "none";
+      rulesButton.textContent = "Rules";
+    }
   });
 });
