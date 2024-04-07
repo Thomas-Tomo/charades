@@ -14,6 +14,34 @@
   </head>
   <body>
     <div class="card">
+      <button id="rules-btn">Rules</button>
+      <div id="rules-div" style="display: none">
+        <p>
+          <strong>Charades</strong> is a game where players guess a word or
+          phrase that another player is trying to act out without speaking.
+        </p>
+        <p><strong>The main rules are:</strong></p>
+        <ul style="list-style-type: none; padding: 0; margin: 0">
+          <li>
+            Players take turns acting out a word or phrase without speaking
+            while the others try to guess what it is.
+          </li>
+          <li>No talking or making sounds is allowed while acting.</li>
+          <li>
+            Players can use hand signals to indicate the number of words or
+            syllables in the phrase and its category (movie, book, etc.).
+          </li>
+          <li>
+            The acting player can point to specific parts of their body to
+            represent words like "sounds like" or "rhymes with".
+          </li>
+          <li>
+            The guessing players have a limited time to guess the word or phrase
+            correctly.
+          </li>
+        </ul>
+      </div>
+
       <div class="card-body" id="card-content">
         <h5 class="card-title">Charade card!</h5>
         <h6 class="movie">
@@ -33,6 +61,16 @@
           <p id="book"></p>
         </h6>
         <button id="generate-btn">Generate</button>
+      </div>
+      <div>
+        <i>Created by: Thomas-Tomo Domitrovic</i>
+        <br />
+        <a href="https://github.com/Thomas-Tomo" target="_blank"
+          ><i class="fab fa-github"></i
+        ></a>
+        <a href="https://www.linkedin.com/in/thomasdomitrovic" target="_blank"
+          ><i class="fab fa-linkedin"></i
+        ></a>
       </div>
     </div>
     <script src="script.js"></script>
