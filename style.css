@@ -38,7 +38,8 @@ p {
 }
 
 #generate-btn,
-#rules-btn {
+#rules-btn,
+#copy-url-btn {
   margin-top: 20px;
   padding: 10px 20px;
   background-color: rgba(125, 42, 157, 0.6);
@@ -52,8 +53,14 @@ p {
 }
 
 #generate-btn:hover,
-#rules-btn:hover {
+#rules-btn:hover,
+#copy-url-btn:hover {
   background-color: #0f7b16;
+}
+
+.button-container {
+  display: flex;
+  justify-content: space-between;
 }
 
 #music,
