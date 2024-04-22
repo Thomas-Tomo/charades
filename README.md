@@ -49,6 +49,7 @@ The "Lilita One", sans-serif are the fonts used on this website
 * One page website
 * Rules button that revelas rules once pressed and hides them when pressed again
 * Generate button that generates random charade card
+* Copy URL button to easily share the website with your friends and family
 
 ## Technologies Used
 

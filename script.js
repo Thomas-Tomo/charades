@@ -53,17 +53,16 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 });
 
-
- // Function to copy URL to clipboard
- function copyURL() {
-  var urlInput = document.createElement('input');
-  urlInput.setAttribute('value', window.location.href);
+// Function to copy URL to clipboard
+function copyURL() {
+  var urlInput = document.createElement("input");
+  urlInput.setAttribute("value", window.location.href);
   document.body.appendChild(urlInput);
   urlInput.select();
-  document.execCommand('copy');
+  document.execCommand("copy");
   document.body.removeChild(urlInput);
-  alert('URL copied to clipboard!');
+  alert("URL copied to clipboard!");
 }
 
 // Attach click event listener to copy URL button
-document.getElementById('copy-url-btn').addEventListener('click', copyURL);
+document.getElementById("copy-url-btn").addEventListener("click", copyURL);
