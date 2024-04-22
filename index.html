@@ -14,7 +14,11 @@
   </head>
   <body>
     <div class="card">
+      <div class="button-container">
       <button id="rules-btn">Rules</button>
+       <!-- Button to copy URL -->
+       <button id="copy-url-btn">Copy URL</button>
+      </div>
       <div id="rules-div" style="display: none">
         <p>
           <strong>Charades</strong> is a game where players guess a word or
@@ -61,8 +65,8 @@
           <p id="book"></p>
         </h6>
         <button id="generate-btn">Generate</button>
-       
       </div>
+
       <div class="creator">
         <i>Created by: Thomas-Tomo Domitrovic</i>
         <br />
@@ -79,15 +83,12 @@
           ><i class="fab fa-linkedin"></i
         ></a>
       </div>
-       <!-- Facebook Share button -->
-       <div class="fb-share-button" data-href="https://thomas-charades.netlify.app/" data-layout="button"></div>
     </div>
+
     <script src="script.js"></script>
     <script
       src="https://kit.fontawesome.com/27545168c5.js"
       crossorigin="anonymous"
     ></script>
-    <!-- Include the Facebook SDK -->
-    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v12.0" nonce="your-nonce-value"></script>
   </body>
 </html>
